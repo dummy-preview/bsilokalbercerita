@@ -3963,6 +3963,80 @@ input[type=file] {
     filter: drop-shadow(0px 4px 20px rgba(26, 164, 157, 0.2));
 }
 
+.proses__wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.line-t {
+    position: relative;
+}
+
+.line-t::before {
+    content: '';
+    position: absolute;
+    width: 1.5px;
+    height: 100px;
+    right: 74px;
+    top: -100px;
+    background-color: #000;
+}
+
+.proses__item {
+    position: relative;
+    width: 150px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.circle-1 {
+    position: relative;
+}
+
+.circle-1::before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #1AA49D !important;
+}
+
+.proses__item::before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+}
+
+.line-r {
+    position: relative;
+}
+
+.line-r::after {
+    content: '';
+    position: absolute;
+    left: 64%;
+    width: 100%;
+    top: -23px;
+    height: 1.5px;
+    background: #000;
+}
+
 @media (max-width:1600px) {
     .home-banner {
         position: relative;
@@ -4119,6 +4193,72 @@ input[type=file] {
     .logo-bsi2 {
         padding-right: 15px;
         padding-left: 10px;
+    }
+    .proses__wrap {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        position: relative;
+        flex-direction: column;
+    }
+    .proses__item {
+        position: relative;
+        width: 230px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .proses__item::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -32px;
+        right: unset;
+    }
+    .line-t {
+        flex-direction: column-reverse;
+    }
+    .line-r::after {
+        content: '';
+        position: absolute;
+        left: -10%;
+        width: 1.5px;
+        top: 70px;
+        height: 100%;
+        background: #000;
+        display: none;
+    }
+    .line-t::before {
+        content: '';
+        position: absolute;
+        width: 1.5px;
+        height: 114px;
+        right: 74px;
+        left: -23px;
+        top: -66px;
+        background-color: #000;
+        display: none;
+    }
+    .proses__wrap::before {
+        content: '';
+        position: absolute;
+        left: -22px;
+        height: 90%;
+        width: 1.5px;
+        background: #000;
+        top: 85px;
+    }
+    .line-m {
+        position: relative;
+    }
+    .line-m::after {
+        content: '';
+        position: absolute;
+        left: -22px;
+        height: 94%;
+        width: 1.5px;
+        background: #000;
+        top: -5px;
     }
 }
 
@@ -5051,6 +5191,30 @@ input[type=file] {
     }
     .hadiah__obj2 img {
         width: 65px;
+    }
+    .list-syarat {
+        margin-top: -3px;
+        margin-bottom: 15px;
+        font-size: 13px;
+        line-height: 143%;
+    }
+    .proses__item {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 13px;
+        line-height: 143%;
+        padding-bottom: 9px;
+    }
+    .proses__wrap::before {
+        content: '';
+        position: absolute;
+        left: -22px;
+        height: 100%;
+        width: 1.5px;
+        background: #000;
+        top: 55px;
     }
 }
 
