@@ -1382,6 +1382,11 @@ td {
     right: 0;
 }
 
+.list-syarat {
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+
 .btn-register button {
     width: 224px;
     height: 53px;
