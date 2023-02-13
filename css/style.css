@@ -1664,23 +1664,6 @@ td {
     margin-top: -230px;
 }
 
-
-/* .bagikan-ceritamu__read p {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 2;
-    color: #666666;
-    margin-bottom: 20px;
-} */
-
-.mvp-read__content p {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 2;
-    color: #666666;
-    margin-bottom: 20px;
-}
-
 ul.timeline {
     list-style-type: none;
     position: relative;
@@ -2491,6 +2474,14 @@ p.timeline__text {
     transform: scale(0.95);
     -webkit-filter: brightness(.8);
     filter: brightness(.8);
+}
+
+.winner {
+    width: 210px !important;
+}
+
+.winner-bottom {
+    height: 160px;
 }
 
 .juri {
