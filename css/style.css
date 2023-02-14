@@ -1766,13 +1766,11 @@ ul.tab-head {
 
 .tabs>ul li a.active-tab {
     color: #1AA49D;
-    text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
     font-weight: bold;
 }
 
 .tabs>ul li a:hover:not(.active-tab) {
     color: #1AA49D;
-    text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
     font-weight: bold;
 }
 
