@@ -3092,7 +3092,7 @@ p.copyright {
 }
 
 .form-group {
-    margin-bottom: 15px
+    margin-bottom: 10px
 }
 
 .form-group input[type=email],
@@ -3100,7 +3100,7 @@ p.copyright {
 .form-group input[type=text] {
     width: 100%;
     background: #fff;
-    padding: 12px 15px;
+    padding: 10px 15px;
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
@@ -3128,7 +3128,7 @@ p.copyright {
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
-    height: 120px;
+    height: 75px;
     border: 2px solid #e5e5e5;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
