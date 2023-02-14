@@ -586,12 +586,11 @@ li.menu-item.current-menu-item {
 
 .fixshow {
     position: fixed;
-    /* background: rgb(255 255 255 / 90%); */
     background: #1AA49D;
     top: 0;
     width: 100%;
     animation: smoothScroll .5s forwards;
-    box-shadow: 1px 1px 8px rgb(0 0 0 / 30%);
+    box-shadow: 0px 4px 20px rgb(26 164 157 / 10%);
     z-index: 99
 }
 
