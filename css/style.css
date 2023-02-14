@@ -1650,7 +1650,7 @@ td {
     border-radius: 20px;
     margin-bottom: 20px;
     margin-top: -200px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.25));
+    box-shadow: 0px 4px 20px rgba(26, 164, 157, 0.1);
 }
 
 .bagikan-ceritamu__read {
@@ -1724,7 +1724,7 @@ ul.timeline>.fisrt:before {
 .tabs {
     display: flex;
     width: 100%;
-    background: #F5F5F5;
+    background: #ffffff;
     border-radius: 10px;
 }
 
@@ -1790,7 +1790,7 @@ ul.tab-head {
 
 .tabs section {
     width: 85%;
-    background: #F5F5F5;
+    background: #ffffff;
     border-radius: 0px 10px 10px 0px;
     padding: 1rem;
     display: none;
